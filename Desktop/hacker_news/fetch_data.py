@@ -5,6 +5,7 @@ import argparse
 from data.datasources import giphy
 
 
+
 def main(datasource, raw, file_dest):
     if not file_dest:
         if datasource == 'giphy':
